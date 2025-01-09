@@ -111,7 +111,7 @@ int main(){
       pop[i] = new molecule(N_atoms, L_box, mutation_prob);
  
     // is_parent[i] == 0 : False: Molecule i is not a parent
-    // is_parent[i] == 1 : True: Molecule i is not a parent
+    // is_parent[i] == 1 : True: Molecule i is a parent
     //bool *is_parent = new bool[N_moleculas];
     //int *parent_order = new int[couples_nb*2];
 
